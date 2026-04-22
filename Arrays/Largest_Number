@@ -13,24 +13,17 @@ public class Second_largest {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
+int largest = a[0];
+for(int i = 1; i < n; i++) 
+{ 
+if(a[i] > largest) 
+{
+largest = a[i]; 
+}
+}
 
-        int largest = a[0];
-        int secondLargest = -1; 
-
-
-        for (int i = 1; i < n; i++) {
-
-            if (a[i] > largest) {
-                secondLargest = largest;
-                largest = a[i];
-            }
-
-            else if (a[i] < largest && a[i] > secondLargest) {
-                secondLargest = a[i];
-            }
-        }
 
         System.out.println("Largest: " + largest);
-        System.out.println("Second Largest: " + secondLargest);
+      
     }
 }
