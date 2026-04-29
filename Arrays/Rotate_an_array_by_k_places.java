@@ -1,4 +1,4 @@
-in this code we can we rotate a array by k places 
+in this code we can we rotate a array by k places
 
  import java.util.*;
 
