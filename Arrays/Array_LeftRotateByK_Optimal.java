@@ -1,8 +1,7 @@
  Left rotate an array by k positions using the reverse technique.
-// This approach avoids extra space by reversing parts of the array in-place.
+// This way avoids extra space by reversing parts of the array in-place.
 // Time Complexity: O(n), Space Complexity: O(1)
-
-
+  
 import java.util.*;
 
 public class LeftRotateOptimal {
